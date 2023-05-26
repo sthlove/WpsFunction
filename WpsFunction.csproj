@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Excel-DNA" Version="1.7.0-rc3" />
+    <PackageReference Include="ExcelDna.AddIn" Version="1.7.0-rc3" />
+    <PackageReference Include="ExcelDna.Integration" Version="1.7.0-rc3" />
+    <PackageReference Include="ExcelDna.IntelliSense" Version="1.7.0-rc3" />
+    <PackageReference Include="ExcelDna.Interop" Version="15.0.1" />
+    <PackageReference Include="ExcelDna.Registration" Version="1.7.0-rc3" />
+    <PackageReference Include="LitJson" Version="0.18.0" />
+    <PackageReference Include="NumSharp" Version="0.30.0" />
+  </ItemGroup>
+
+</Project>
